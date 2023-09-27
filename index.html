@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href = "css/reset.css">
+    <link rel = "stylesheet" href = "main.css">
+    <title>Personality</title>
+</head>
+<body>
+    <header class = "header">
+        <div class="container">
+            <div class="header_top">
+                <h1>My personality</h1>
+            </div>
+            <div class="header_text">
+                <p>Привет, меня зовут Рома, хотел бы попасть на этот курс чтобы освоить новую для себя сферу</p>
+            </div>                          
+        </div>        
+    </header>
+    <div class="infoblock">
+        <div class="infoblock_button">
+            <button type ="button" class = "button" onClick = "ShowInfo()">Подробнее...</button>
+        </div>
+        <div class="infoblock_text">
+            <p id="info" style="display: none;">Мне 20 лет, учусь в юургу на 3 курсе. Раньше занимался разработкой игр на Unity.</p>
+        </div>
+    </div>
+    <div class="swiper slider slider_main">
+        <div class="swiper-wrapper slider_wrapper">
+
+            <div class="swiper-slide slider_item">
+                <div class="slider_img"><img src = "image/1.jpg" width="400"></div>
+            </div>
+            <div class="swiper-slide slider_item">
+                <div class="slider_img"><img src = "image/2.jpg" width="400"></div>
+            </div>
+            <div class="swiper-slide slider_item">
+                <div class="slider_img"><img src = "image/3.jpg" width="400"></div>
+            </div>
+            <div class="swiper-slide slider_item">
+                <div class="slider_img"><img src = "image/4.jpg" width="400"></div>
+            </div>
+        </div>
+    </div> 
+    
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <script src="task.js"></script>
+</body>
+</html>
